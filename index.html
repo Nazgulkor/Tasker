@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="" content="" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tasker</title>
+</head>
+<body>
+
+    <nav>
+      <div class="nav-container">
+        <div class="logo">Tasker</div>
+        <div class="choiser">
+          <select name="selector" id="" class="select">
+            <option value="default">Theme default</option>
+            <option value="dark">Theme dark</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+    <div class="form-window">
+      <div class="form-window-flex">
+        <h5 class="title">Add new task</h5>
+        <form name="addTask" class="add-task">
+          <input 
+            type="text"
+            name='title'
+            class="control-title"
+            placeholder="Task title"
+          >
+          <input 
+            type="text"
+            name="body"
+            class="control-body"
+            placeholder="Task body"
+          >
+          <button type="submit" class="add-btn">Add task</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="task-list">
+      <div class="container">
+        <ul class="list-group">
+
+        </ul>
+      </div>
+    </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

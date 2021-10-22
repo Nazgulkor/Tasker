@@ -1,0 +1,129 @@
+:root{
+    --blue-background : rgb(63, 63, 235);
+    --red-background : rgba(199, 61, 61, 0.979);
+    --body-background : white;
+}
+
+
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+body{
+    
+}
+ul{
+    padding: 0;
+}
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+nav{
+    width: 100%;
+    padding: 10px 20px;
+    min-height: 40px;
+    background-color: var(--blue-background);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+nav .select{
+    height: 40px;
+}
+.form-window{
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid grey;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+.form-window-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+form.add-task{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0 0 0;
+}
+form.add-task input{
+    height: 35px;
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+form .add-btn{
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    background-color: var(--blue-background);
+    color: white;
+    font-size: 16px;
+    height: 35px;
+    width: 25%;
+    border-radius: 5px;
+}
+form .add-btn:hover{
+    opacity: 0.8;
+}
+
+.task-list{
+    
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.list-group-item{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: white;
+}
+.list-group-item span{
+    font-size: 19px;
+    word-wrap: break-word;
+}
+.list-group-item p{
+    font-size: 16px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+
+.list-group-item button{
+    background-color: var(--red-background);
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    max-width: 130px;
+    margin-left: auto;
+} 
+.list-group-item button:hover{
+    opacity: 0.8;
+}
